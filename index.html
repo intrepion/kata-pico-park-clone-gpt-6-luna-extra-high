@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f3f0e7">
+    <meta name="description" content="A cheerful local co-op platform puzzle. Find the key, help your crew, and get everyone to the exit.">
+    <title>Keys Together — Tiny Team Co-op</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js" defer></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Keys Together home">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+          <span>tiny team <i>arcade</i></span>
+        </a>
+        <div class="header-note"><span class="live-dot"></span> LOCAL CO-OP <b>·</b> 2–4 PLAYERS</div>
+      </header>
+
+      <section class="intro" id="top" aria-labelledby="game-title">
+        <div>
+          <p class="eyebrow"><span>✳</span> A LITTLE PUZZLE PLATFORMER</p>
+          <h1 id="game-title">Keys <span>together.</span></h1>
+          <p class="intro-copy">One key. A whole crew. Get everyone through the door.</p>
+        </div>
+        <div class="sticker" aria-label="Teamwork makes the dream work">
+          <span>GOOD<br>THINGS<br>TAKE A<br><b>TEAM</b></span>
+          <span class="sticker-star">✳</span>
+        </div>
+      </section>
+
+      <section class="game-section" aria-label="Game">
+        <div class="game-frame">
+          <canvas id="game" width="960" height="540" aria-label="Keys Together game screen">Your browser does not support canvas.</canvas>
+
+          <div class="game-overlay" id="overlay">
+            <div class="overlay-card" id="menu-card">
+              <div class="mini-lock" aria-hidden="true"><span></span></div>
+              <p class="overlay-eyebrow">A CO-OP PUZZLE ADVENTURE</p>
+              <h2>Better <em>together.</em></h2>
+              <p class="overlay-copy">Find the key, help your friends, and make it to the exit as a team.</p>
+              <div class="crew-picker" role="group" aria-label="Choose number of players">
+                <span class="picker-label">YOUR CREW</span>
+                <div class="crew-options">
+                  <button type="button" class="crew-option" data-players="2" aria-pressed="true">2 <small>players</small></button>
+                  <button type="button" class="crew-option" data-players="3" aria-pressed="false">3 <small>players</small></button>
+                  <button type="button" class="crew-option" data-players="4" aria-pressed="false">4 <small>players</small></button>
+                </div>
+              </div>
+              <button type="button" class="start-button" id="start-button">Start the adventure <span>↗</span></button>
+              <div class="menu-hint"><kbd>W A D</kbd> + <kbd>↑ ← →</kbd> <span>one keyboard, one team</span></div>
+            </div>
+
+            <div class="overlay-card result-card" id="result-card" hidden>
+              <div class="result-stamp" aria-hidden="true">✦</div>
+              <p class="overlay-eyebrow" id="result-eyebrow">ROOM CLEAR</p>
+              <h2 id="result-title">Look at you, team!</h2>
+              <p class="overlay-copy" id="result-copy">Everybody made it through.</p>
+              <button type="button" class="start-button" id="result-button">Next room <span>↗</span></button>
+              <button type="button" class="text-button" id="menu-button">Back to title</button>
+            </div>
+          </div>
+
+          <div class="screen-corner corner-left" aria-hidden="true">TT—01</div>
+          <div class="screen-corner corner-right" aria-hidden="true"><span class="corner-spark">✳</span> PRESS START</div>
+        </div>
+
+        <div class="status-bar" aria-live="polite">
+          <div class="room-info">
+            <span class="status-icon" id="status-icon">✦</span>
+            <div><span class="status-overline" id="status-overline">READY WHEN YOU ARE</span><strong id="status-text">Choose your crew and press start.</strong></div>
+          </div>
+          <div class="level-progress" id="level-progress" aria-label="Level progress">
+            <span class="progress-dot active"></span><span class="progress-line"></span><span class="progress-dot"></span><span class="progress-line"></span><span class="progress-dot"></span>
+          </div>
+          <button type="button" class="restart-button" id="restart-button" title="Restart this room (R)" aria-label="Restart room">↻ <span>Restart</span></button>
+        </div>
+      </section>
+
+      <section class="how-to" aria-label="Controls and tips">
+        <div class="control-block">
+          <div class="control-icon move-icon" aria-hidden="true">← →</div>
+          <div><span class="tip-label">MOVE</span><strong id="move-controls">A / D <i>·</i> ← / →</strong></div>
+        </div>
+        <div class="control-block">
+          <div class="control-icon jump-icon" aria-hidden="true">↑</div>
+          <div><span class="tip-label">JUMP</span><strong id="jump-controls">W / Space <i>·</i> ↑</strong></div>
+        </div>
+        <div class="tip-callout"><span class="tip-flower">✳</span><p><b>Small tip:</b> if a door stays shut, look for a switch. Someone may need to stay behind and hold it.</p></div>
+      </section>
+
+      <footer class="page-footer"><span>MADE FOR SHARED KEYBOARDS & SHARED WINS</span><span>PLAY NICE, STAY TOGETHER <b>♥</b></span></footer>
+    </main>
+  </body>
+</html>
