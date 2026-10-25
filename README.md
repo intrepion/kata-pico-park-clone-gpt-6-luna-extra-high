@@ -1,5 +1,9 @@
 # Keys Together
 
+## Play online
+
+[Play Keys Together](https://intrepion.github.io/kata-pico-park-clone-gpt-6-luna-extra-high/) — free, playable in your browser.
+
 A small, local multiplayer platform puzzle game about doing things together. Build no dependencies: open `index.html` in a modern browser, pick a crew size, and play. You can also serve this directory with any static file server.
 
 ## How to play
