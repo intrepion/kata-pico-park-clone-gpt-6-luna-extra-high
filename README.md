@@ -27,3 +27,7 @@ Press **R** during a room to restart it. Use **Esc** to return to the title scre
 ## Project
 
 This is a dependency-free HTML, CSS, and Canvas game. The levels, physics, drawing, and keyboard input live in `game.js`; the page layout is in `index.html` and `style.css`.
+
+## Arcade metadata
+
+See [docs/arcade-metadata.md](docs/arcade-metadata.md) for the game-owned manifest and screenshot provenance.
