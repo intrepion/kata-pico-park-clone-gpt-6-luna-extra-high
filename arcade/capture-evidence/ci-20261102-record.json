@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "workflowCommit": "3b4d156310d565190ada84fb99b8f99dd9243397",
+  "sourceCommit": "5182e0547e497b9b320eda88312b083deda37099",
+  "runId": "41396671513",
+  "url": "http://127.0.0.1:4205/",
+  "inputs": {
+    "index.html": "790ac912da196da82b8b2ec5a1340dde5df9f33954d63f99f284323612a0d453",
+    "style.css": "66b343adbfaea26d77e87ca62bfce7e94c10375d11bbfc9a89377179beca2f86",
+    "game.js": "d5ff75f9be30bdbd6a729ec243eecc65248282d055c57699f1b3d4dbad4d1bee"
+  },
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "screenshots": [
+    "keys-together-01.png",
+    "keys-together-02.png"
+  ]
+}

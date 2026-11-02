@@ -1,6 +1,47 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "gameId": "kata-pico-park-clone-gpt-6-luna-extra-high",
   "playUrl": "https://intrepion.github.io/kata-pico-park-clone-gpt-6-luna-extra-high/",
-  "screenshots": []
+  "screenshots": [
+    {
+      "path": "arcade/screenshots/ci-20261102-01.jpg",
+      "sha256": "f6d631dcf65bf24438a55dc1e196c78275fc0e6a8b699f0bcd7ca9d349f07b86",
+      "alt": "Keys Together gameplay, view 1",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261102-01.png",
+        "sourceSha256": "bf1952a6979d69116d83dfa91746d4e653f192d4dd15a2db1eff6af866ba7020",
+        "captureCommit": "5182e0547e497b9b320eda88312b083deda37099",
+        "workflowRunId": "41396671513",
+        "inputHashes": {
+          "index.html": "790ac912da196da82b8b2ec5a1340dde5df9f33954d63f99f284323612a0d453",
+          "style.css": "66b343adbfaea26d77e87ca62bfce7e94c10375d11bbfc9a89377179beca2f86",
+          "game.js": "d5ff75f9be30bdbd6a729ec243eecc65248282d055c57699f1b3d4dbad4d1bee"
+        },
+        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
+        "captureRecordSha256": "3bb41cf86f2e7a830baf339740de157d1ff2658fa4b55051d29f04d633a6ad11"
+      }
+    },
+    {
+      "path": "arcade/screenshots/ci-20261102-02.jpg",
+      "sha256": "382be70b51843f302d61b2e6adb645fc15fd76d13f92fabba741d07d3b450523",
+      "alt": "Keys Together gameplay, view 2",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261102-02.png",
+        "sourceSha256": "864c6184ba9ca84f27a91e8bb8585143c863f6a24adc460e9be56964edded4b8",
+        "captureCommit": "5182e0547e497b9b320eda88312b083deda37099",
+        "workflowRunId": "41396671513",
+        "inputHashes": {
+          "index.html": "790ac912da196da82b8b2ec5a1340dde5df9f33954d63f99f284323612a0d453",
+          "style.css": "66b343adbfaea26d77e87ca62bfce7e94c10375d11bbfc9a89377179beca2f86",
+          "game.js": "d5ff75f9be30bdbd6a729ec243eecc65248282d055c57699f1b3d4dbad4d1bee"
+        },
+        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
+        "captureRecordSha256": "3bb41cf86f2e7a830baf339740de157d1ff2658fa4b55051d29f04d633a6ad11"
+      }
+    }
+  ]
 }
